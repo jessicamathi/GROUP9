@@ -1,0 +1,3 @@
+import welcome
+
+welcome.welcome();
