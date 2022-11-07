@@ -1,5 +1,6 @@
 from tkinter import *
 import registration1
+import nitin
 import login
 import portal
 global main_screen
