@@ -1,7 +1,7 @@
 import mysql.connector
 import pandas as pd
 
-quantquestions=pd.read_csv(r'D:\Python Project\CQuestions.csv',encoding='latin1')
+quantquestions=pd.read_csv(r'/home/shavia/Documents/swearstyle/pythonquestions.csv',encoding='latin1')
 
 print(quantquestions.head());
 

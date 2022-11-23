@@ -1,7 +1,7 @@
 import mysql.connector
 import pandas as pd
 
-verbalquestions=pd.read_csv(r'D:\Python Project\questionsverbal.csv')
+verbalquestions=pd.read_csv(r'/home/shavia/Documents/swearstyle/pythonquestions.csv',encoding='latin1')
 
 print(verbalquestions.head());
 
