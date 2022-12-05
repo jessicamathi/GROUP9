@@ -19,7 +19,7 @@ from reportlab.lib.styles import getSampleStyleSheet,ParagraphStyle
 
 def function(id):
 
-    cnx = mysql.connector.connect(user='root', password='root', host='127.0.0.1',database='swear');
+    cnx = mysql.connector.connect(user='root', password='coffee123', host='127.0.0.1',database='swear');
     cursor=cnx.cursor();
     sql_c="select * from student where id="+id+";"
     cursor.execute(sql_c);

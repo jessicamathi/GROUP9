@@ -5,7 +5,7 @@ pythonquestions=pd.read_csv(r'/home/shavia/Documents/swearstyle/pythonquestions.
 
 print(pythonquestions.head());
 
-cnx = mysql.connector.connect(user='root', password='root', host='127.0.0.1',database='swear');
+cnx = mysql.connector.connect(user='root', password='coffee123', host='127.0.0.1',database='swear');
 cursor=cnx.cursor();
 
 for i in range(0,len(pythonquestions)):

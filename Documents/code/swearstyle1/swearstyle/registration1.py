@@ -33,7 +33,7 @@ def function():
 
 def clicked():
     global sid1,fn,ln,emailid,conno,passw,window;
-    cnx = mysql.connector.connect(user='root', password='root', host='127.0.0.1',database='swear');
+    cnx = mysql.connector.connect(user='root', password='coffee123', host='127.0.0.1',database='swear');
     #print(a1.get(),b1.get())
     print(cnx)
     cursor=cnx.cursor();
