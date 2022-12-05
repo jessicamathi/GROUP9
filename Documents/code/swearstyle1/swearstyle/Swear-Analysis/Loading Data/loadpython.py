@@ -1,6 +1,6 @@
 import mysql.connector
 import pandas as pd
-
+#/home/shavia/Documents/swearstyle/pythonquestions.csv
 pythonquestions=pd.read_csv(r'/home/shavia/Documents/swearstyle/pythonquestions.csv',encoding='latin1')
 
 print(pythonquestions.head());

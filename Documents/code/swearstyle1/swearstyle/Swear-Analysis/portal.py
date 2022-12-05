@@ -39,7 +39,7 @@ def function(id):
     window = Tk();
     window.title("Swear Analysis")
     window.geometry('800x500')
-    #window.configure(background = "grey");
+    #window.configure(background = "sky blue");
     logout = Button(window ,text="Log-Out",command=welco).place(x = 600,y = 50)
     a = Label(window ,text = "Welcome to Swear Analysis").place(x = 300,y = 50)
     # b = Label(window ,text = "Your Name : "+fn+" "+ln).place(x = 200,y = 80)

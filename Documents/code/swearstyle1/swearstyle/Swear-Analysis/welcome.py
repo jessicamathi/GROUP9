@@ -12,17 +12,21 @@ def fun2():
     global main_screen;
     main_screen.destroy();
     registration1.function();
-    
+
+def fun3():
+    global main_screen;
+    main_screen.destroy();
+    registration1.function();
 
 def welcome():
     global main_screen
     main_screen = Tk()   
     main_screen.geometry("500x500") 
     main_screen.title("Welcome Page") 
- 
 
+    
     Label(text="Welcome To SWEAR ANALYSIS", bg="yellow", width="30", height="2", font=("Calibri", 13)).pack()
-    Label(text="Please Login to Analyse", bg="blue", width="20", height="2", font=("Calibri", 13)).pack()
+    Label(text="Please Login to Analyse", bg="sky blue", width="20", height="2", font=("Calibri", 13)).pack()
     Label(text="").pack() 
  
 
